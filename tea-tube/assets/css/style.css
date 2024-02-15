@@ -1,0 +1,374 @@
+@import url('./global.css');
+@import url('./animations.css');
+
+body {
+    background-color: #fff;
+}
+
+#fake {
+    padding: 10px 24px 4px 24px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.fake-menu {
+    width: 36px;
+    height: 38px;
+    margin-top: 5%;
+}
+
+#id-logo {
+    display: flex;
+    position: relative;
+    gap: 6px;
+    margin: .5% 10% 0 0;
+}
+
+.logo-icon {
+    width: 50px;
+    height: 30px;
+    border-radius: 7px;
+    background: linear-gradient(100deg, #e7c144 20%, #38d15c 39%, #eb5252 60%, #39a2df 95%);
+    background-size: 410% 100%;
+    animation: teaColors 3s linear infinite alternate;
+}
+
+.arrow {
+    position: absolute;
+    top: 7px;
+    left: 20px;
+    border-left: 14px solid #fff;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+}
+
+.teatube {
+    color: rgb(15, 15, 15);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: -2%;
+}
+
+#search {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 20% 0 0;
+}
+
+.input-search {
+    width: 348px;
+    height: 40px;
+    border: 1px solid #1eb742;
+    font-size: 1.3rem;
+    padding-left: 3px;
+    outline-color: #f6bb00;
+}
+
+input::placeholder {
+    color: transparent;
+    letter-spacing: 12px;
+    text-align: center;
+    padding-left: 3px;
+    background: linear-gradient(#f6bb00 25%, #1eb742 42%, #ff3334 60%, #0c96e4 95%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: .6;
+}
+
+#btn-search {
+    width: 46px;
+    height: 40px;
+    border-top: 1px solid rgba(204, 204, 204, 1);
+    border-right: 1px solid rgba(204, 204, 204, 1);
+    border-bottom: 1px solid rgba(204, 204, 204, 1);
+    border-left: none;
+    background: linear-gradient(100deg, #e7c144 20%, #38d15c 39%, #eb5252 60%, #39a2df 95%);
+    background-size: 400% 100%;
+    animation: teaColors 3s linear infinite alternate;
+}
+
+#user {
+    display: flex;
+    width: 130px;
+    height: 34px;
+    gap: 24px;
+    padding-top: 8px;
+    margin-right: .4%;
+}
+
+.user-photo {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-top: -20%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    margin: 10px 0 10px 0;
+    background-color: #fff;
+    display: flex;
+}
+
+#video-actions {
+    display: flex;
+    width: 752px;
+    margin: 14px 0 0 55px;
+    justify-content: space-between;
+}
+
+iframe {
+    width: 752px;
+    height: 400px;
+    margin: 14px 0 0 55px;
+    gap: 16px;
+    border-top: 8px ridge #f6bb00;
+    border-right: 8px ridge #0c96e4;
+    border-bottom: 8px ridge #1eb742;
+    border-left: 8px ridge #ff3334;
+    border-radius: 18px;
+}
+
+.video-title {
+    width: 871px;
+    height: 23px;
+    font-family: 'Roboto';
+    color: rgb(15, 15, 15);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 6px 0 0 55px;
+}
+
+.subscribe {
+    width: 110px;
+    height: 36px;
+    border-radius: 18px;
+    color: #fff;
+    background: linear-gradient(100deg, #e7c144 20%, #38d15c 39%, #eb5252 60%, #39a2df 95%);
+    background-size: 400% 100%;
+    animation: teaColors 3s linear infinite alternate;
+    border: 1px solid linear-gradient(#0c96e4, #1eb742, #ff3334, #f6bb00);
+    font-size: 1rem;
+    line-height: 36px;
+    font-weight: 500;
+    margin-left: 70px;
+}
+
+.channel-profile {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin: -7px -16px 0 0;
+}
+
+.channel-infos {
+    color: rgb(15, 15, 15);
+}
+
+.btn-like {
+    width: 150px;
+    height: 36px;
+    border-radius: 18px;
+    color: rgb(15, 15, 15);
+    background: #ddd;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.text {
+    font-size: 1.1rem;
+    border-right: 2px solid rgb(140, 140, 140);
+    border-radius: 0;
+    padding: 0 9px 0 9px;
+    text-align: center;
+    color: rgb(15, 15, 15);
+}
+
+.like-deslike {
+    width: 27px;
+    height: 27px;
+    padding: 13px 0 0 7px;
+}
+
+.btn-share {
+    width: 150px;
+    height: 36px;
+    border-radius: 18px;
+    color: rgb(15, 15, 15);
+    background: #ddd;
+    line-height: 36px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.share-icon {
+    width: 20px;
+    height: 20px;
+    padding: 4px 5px 0 0;
+}
+
+.dots {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background: #ddd;
+}
+
+.dot {
+    display: inline-flex;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: rgb(15, 15, 15);
+    vertical-align: 20%;
+}
+
+
+#video-description {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 752px;
+    height: 207px;
+    margin: 14px 0 16px 55px;
+    color: rgb(15, 15, 15);
+    background: #eee;
+    border-radius: 18px;
+    padding: 12px 14px;
+}
+
+.btn_ReadMore {
+    display: flex;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.btnHidden {
+    display: none;
+}
+
+.hashtag {
+    color: #0c96e4;
+}
+
+.textVisible {
+    display: flex;
+    flex-direction: column;
+    width: 752px;
+    height: 1137px;
+    margin: 0 0 200px -14px;
+    color: rgb(15, 15, 15);
+    background: #eee;
+    border-radius: 0 0 18px 18px;
+    padding: 0 14px 12px 14px;
+}
+
+.textHidden {
+    display: none;
+}
+
+.btn_showLess {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#comments-section {
+    display: flex;
+}
+
+.comments-hidden {
+    display: none;
+}
+
+.comments {
+    display: flex;
+    width: 752px;
+    height: 577px;
+    margin: 30px 0 0 -14px;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+#sidebar-filters {
+    display: flex;
+    width: 360px;
+    gap: 13px;
+    margin: 15px 0 10px -73px;
+}
+
+.all-videos {
+    width: 100px;
+    height: 36px;
+    border-radius: 8px;
+    color: #fff;
+    background: linear-gradient(100deg, #e7c144 20%, #38d15c 39%, #eb5252 60%, #39a2df 95%);
+    background-size: 400% 100%;
+    animation: teaColors 3s linear infinite alternate;
+    line-height: 36px;
+    font-weight: 500;
+    font-size: .9rem;
+    text-align: center;
+    margin-left: -28px;
+
+}
+
+.related-videos {
+    width: 200px;
+    height: 36px;
+    border-radius: 8px;
+    color: rgb(15, 15, 15);
+    background: #ddd;
+    line-height: 36px;
+    font-weight: 500;
+    font-size: .9rem;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+.sidebar {
+    width: 392px;
+    margin-left: -130px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    gap: 5px;
+    background: #fff;
+}
+
+.icon-contacts {
+    margin: 8px 0 5px 0;
+    text-align: center;
+    letter-spacing: 2.8rem;
+}
+
+.icons {
+    width: 20px;
+}
+
+.contacts {
+    font-size: 1rem;
+    font-weight: 500;
+    word-spacing: .4rem;
+    color: transparent;
+    background: linear-gradient(100deg, #e7c144 20%, #38d15c 39%, #eb5252 60%, #39a2df 95%);
+    background-size: 400% 100%;
+    animation: teaColors 3s linear infinite alternate;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
