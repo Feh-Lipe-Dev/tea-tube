@@ -14,6 +14,9 @@ Apliquei também a manipulação do DOM com JS, para expandir / retrair a caixa 
 ## 🏁 Considerações finais
 Quero agradecer a Tech Lead Michele Ambrosio, ela tem sido como uma professora de ensino superior! A jornada no CSS é longa, mas ela tem feito dessa trilha um lugar leve e cativante. 
 
+## 🔼 Página Lista de Vídeos [Atualização]
+Desenvolvido a página de lista de vídeos no projeto do TEA-tube. Depois do flexbox, essa página foi construída com a propriedade grid. Cada seção do HTML foi posicionada com prorpriedades do grid.
+
 ## 🔧 Tecnologias usadas
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
